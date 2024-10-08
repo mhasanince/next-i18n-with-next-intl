@@ -1,0 +1,12 @@
+{
+  "page": {
+    "home": {
+      "title": "Home",
+      "description": "Welcome!!!"
+    },
+    "about-us": {
+      "title": "About us",
+      "description": "We are a company that makes websites."
+    }
+  }
+}

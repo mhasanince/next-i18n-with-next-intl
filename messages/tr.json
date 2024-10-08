@@ -1,0 +1,12 @@
+{
+  "page": {
+    "home": {
+      "title": "Anasayfa",
+      "description": "Hoş geldiniz!!!"
+    },
+    "about-us": {
+      "title": "Hakkımızda",
+      "description": "Biz websiteleri yapan bir şirketiz."
+    }
+  }
+}
