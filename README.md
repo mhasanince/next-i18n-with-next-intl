@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js i18n with next-intl
+
+This project is a multilingual web application developed using the Next.js App Directory structure. It implements i18n (internationalization) support using the next-intl package.
+
+## Features
+
+- Next.js 13+ App Directory structure
+- Multilingual support with next-intl
+- Localized pathnames
+- Static rendering
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to run the project on your local machine:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```
+   git clone [REPO_URL]
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Navigate to the project directory:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```
+   cd [PROJECT_NAME]
+   ```
 
-## Learn More
+3. Install dependencies:
 
-To learn more about Next.js, take a look at the following resources:
+   ```
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Start the development server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```
+   npm run dev
+   ```
 
-## Deploy on Vercel
+5. Open your browser and visit `http://localhost:3000` to view the application.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Multilingual Support
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project provides multilingual support using the next-intl package. Language files are located in the `messages` directory.
+
+## Localized Pathnames
+
+The project uses localized URL paths for different languages. For example:
+
+- `/en/about` (English)
+- `/tr/hakkimizda` (Turkish)
+
+## Static Rendering
+
+Static rendering is used to improve performance and enhance SEO. This ensures pages are generated at build time and served quickly.
+
+## Contributing
+
+1. Fork this repository
+2. Create a new feature branch (`git checkout -b new-feature`)
+3. Commit your changes (`git commit -am 'Add new feature: XYZ'`)
+4. Push to the branch (`git push origin new-feature`)
+5. Create a new Pull Request
