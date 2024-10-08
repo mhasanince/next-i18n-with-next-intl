@@ -1,4 +1,8 @@
 {
+  "metadata": {
+    "title": "Next.js | next-intl",
+    "description": "Next.js boilerplate with next-intl"
+  },
   "page": {
     "home": {
       "title": "Home",

@@ -1,4 +1,8 @@
 {
+  "metadata": {
+    "title": "Next.js | next-intl",
+    "description": "next-intl kullanılarak oluşturulmuş örnek bir Next.js uygulaması."
+  },
   "page": {
     "home": {
       "title": "Anasayfa",
