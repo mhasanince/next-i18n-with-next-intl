@@ -49,7 +49,7 @@ export default async function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <header className="container flex gap-4 justify-between items-center">
             <nav>
               <ul className="flex items-center gap-4">
